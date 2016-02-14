@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#fff"
+    tools:context="com.smartpazhayangadi.BusFrom">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/from_1"
+        android:text="TO PAYYANUR"
+        android:layout_marginBottom="10dp"
+        android:textColor="#3c3c3c"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/from_2"
+        android:text="TO KANNUR"
+        android:layout_marginBottom="10dp"
+        android:textColor="#3c3c3c"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/from_3"
+        android:text="TO TALIPARAMBA"
+        android:layout_marginBottom="10dp"
+        android:textColor="#3c3c3c"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/from_4"
+        android:text="TO MATTUL"
+        android:layout_marginBottom="10dp"
+        android:textColor="#3c3c3c"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/from_5"
+        android:text="TO PAPPINISSERI"
+        android:layout_marginBottom="10dp"
+        android:textColor="#3c3c3c"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/from_6"
+        android:text="TO MUTTAM"
+        android:layout_marginBottom="10dp"
+        android:textColor="#3c3c3c"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/from_7"
+        android:text="TO PUTHIYANGADI"
+        android:layout_marginBottom="10dp"
+        android:textColor="#3c3c3c"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/from_8"
+        android:text="TO MOOLAKKEEL"
+        android:layout_marginBottom="10dp"
+        android:textColor="#3c3c3c"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>
+</ScrollView>

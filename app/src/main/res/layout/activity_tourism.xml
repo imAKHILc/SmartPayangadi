@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E9EC"
+    tools:context="com.smartpazhayangadi.Tourism">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="മാടായിപ്പാറ"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/tourism_1"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"
+            android:text="ചരിത്രപരമായും, സാംസ്കാരികപരമായും, പരിസ്ഥിതിപരമായും പ്രാധാന്യമുള്ള ഒരു ഇടനാടൻ ചെങ്കൽക്കുന്നാണ് മാടായിപ്പാറ. പ്രകൃതിയുടെ തനതായ ഭംഗിയുടെയും ശാന്തതയുടെയും പര്യായമാണ് ഇവിടം. മാടയിപ്പാറയിൽ നിന്നുള്ള പഴയങ്ങാടി ടൗണിന്റെയും പുഴയുടെയും ദൃശ്യം മനോഹരമാണ്. പഴയങ്ങാടി ടൗണിന്റെ പടിഞ്ഞാറ് വശത്താണ് മാടായിപ്പാറ സ്ഥിതി ചെയ്യുന്നത്."
+            android:gravity="left|center"
+            android:textAllCaps="false"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="മാടായിക്കാവ്"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/tourism_2"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"
+            android:text="മാടായിപ്പാറയിൽ സ്ഥിതി ചെയ്യുന്ന കാവാണ് മാടായിക്കാവ്. അനവധി മരങ്ങളും വള്ളിപ്പടർപ്പുകളും ചേർന്ന ഈ കാവിലെ  പ്രതിഷ്ഠ ഭദ്രകാളിയാണ് .  മാടായിക്കാവിലച്ചിയുടെ പൂരക്കുളി നാട്ടിലെ വലിയ ഉൽസവമാണ്. പഴയങ്ങാടിയിൽ നിന്നും 1 കി.മീ ദൂരെയാണ് മാടായിക്കാവ്."
+            android:gravity="left|center"
+            android:textAllCaps="false"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="മാടായി വടുകുന്ദ ശിവക്ഷേത്രം"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/tourism_3"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"
+            android:text="മാടായിപ്പാറയുടെ പടിഞ്ഞാറെ മൂലയിലാണ് വടുകുന്ദ ശിവക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഏത് വേനലിലും വറ്റാത്ത വടുകുന്ദ കുളമാണ് ഇവിടത്തെ പ്രധാന ആകർഷണം. നൂറിൽപ്പരം സ്പീഷീസ് പൂമ്പാറ്റകളുടെ വിഹാരകേന്ദ്രവും കൂടിയാണ് ഈ പ്രദേശം. പഴയങ്ങാടിയിൽ നിന്നും 2 കി.മീ ദൂരെ സ്ഥിതി ചെയ്യുന്നു."
+            android:gravity="left|center"
+            android:textAllCaps="false"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="മാടായിപ്പള്ളി"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/tourism_9"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"
+            android:text="മാടായിപ്പള്ളി കേരളത്തിൽ നിർമിക്കപ്പെട്ട മൂന്നാമത്തെ മുസ്ലിം പള്ളിയാണ് മാടായിപ്പള്ളി . ഈ പള്ളിയിലെ ഒരു വെളുത്ത മാർബിൾ പാളി മെക്കയിൽ‍ നിന്നും മാലിക് ഇബിൻ ദിനാർ കൊണ്ടുവന്നത് ആണെന്നാണ് വിശ്വാസം. പ്രവാചകന്റെ വചനം പ്രചരിപ്പിക്കുവാനായി ഇന്ത്യയിൽ എത്തിയതായിരുന്നത്രെ മുഹമ്മദ് നബിയുടെ ശിഷ്യനായ മാലിക് ഇബിൻ ദിനാർ."
+            android:gravity="left|center"
+            android:textAllCaps="false"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="ജൂതക്കുളം"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/tourism_4"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"
+            android:text="കേരളത്തിലെ ജൂത സംസാകരത്തിന്റെ നിലനിൽക്കുന്ന അപൂർവം തെളിവുകളിലൊന്നാണ് മാടായിപ്പാറയിലെ ജൂതക്കുളം. മാടായിപ്പള്ളി നിർമിച്ച മാലിക് ദിനാർ ഇവിടെ വന്നപ്പോൾ ജൂതർ ഇവിടെ ഉണ്ടായിരുന്നു എന്ന് കരുതപ്പെടുന്നു."
+            android:gravity="left|center"
+            android:textAllCaps="false"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="എട്ടിക്കുളം ബീച്ച്"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/tourism_5"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"
+            android:text="കണ്ണൂര്‍ ജില്ലയിലെ എഴിമലയ്ക്ക് അടുത്താണ് എട്ടിക്കുളം ബീച്ച് സ്ഥിതി ചെയ്യുന്നത്. ഇതൊരു ടൂറിസ്റ്റ് സ്പോട്ട് ആണ്."
+            android:gravity="left|center"
+            android:textAllCaps="false"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="ഏഴിമല"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/tourism_6"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"
+            android:text="സമുദ്രനിരപ്പിൽ നിന്നും 286 മീറ്റർ ഉയരമുള്ള ഏഴിമല പുരാതനമായ മൂഷിക രാജവംശത്തിന്റെ തലസ്ഥാനമായിരുന്നു. പുരാതനമായ ഒരു ലൈറ്റ് ഹൗസും ഇവിടെ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ ബുദ്ധൻ പണ്ട് ഏഴിമലയിൽ വന്നിട്ടുണ്ടെന്ന് പറയപ്പെടുന്നു. ഏഴിമലയിൽ നിന്നുള്ള കടൽക്കാഴ്ചയും ഏഴിമലയിലെ ഹനുമാർ പ്രതിമയും പ്രസിദ്ധമാണ്. പഴയങ്ങാടിയിൽ നിന്ന് 15 കി.മീ ദൂരം."
+            android:gravity="left|center"
+            android:textAllCaps="false"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="വയലപ്ര പരപ്പ്"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/tourism_7"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"
+            android:text="പെരുമ്പപ്പുഴയുടെ ഈ തീരം ഒരു പ്രകൃതി ദത്ത പക്ഷി സങ്കേതമാണ്. വർഷം തോറും ആയിരക്കണക്കിന് ദേശാടനപ്പക്ഷികളെയാണ് ഈ ചതുപ്പ് പ്രദേശം ആകർഷിക്കുന്നത്. ഇവിടെയാണ് വയലപ്ര പരപ്പ് ബീച്ച് സ്ഥിതി ചെയ്യുന്നത്. പഴയങ്ങാടിയിൽ നിന്നും ഏകദേശം 6 കി.മീ ദൂരെയാണ് ചെമ്പല്ലിക്കുണ്ട്."
+            android:gravity="left|center"
+            android:textAllCaps="false"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="ചൂട്ടാട് ബീച്ച്"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/tourism_8"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"
+            android:text="പഴയങ്ങാടിയിൽ നിന്നും 5 കി. മീ ദൂരെ സ്ഥിതി ചെയ്യുന്ന ചൂട്ടാട് ബീച്ച്. ഈയിടെ ഉദ്ഘാടനം ചെയ്യപ്പെട്ട പാർക് ആണ് ഇപ്പോൾ ഇവിടുത്തെ മുഖ്യ ആകർഷണം. ചൂട്ടാട് ബീച്ച് ഒരു അഴിമുഖപ്രദേശം കൂറ്റിയാണ്."
+            android:gravity="left|center"
+            android:textAllCaps="false"
+            android:textColor="#3c3c3c"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

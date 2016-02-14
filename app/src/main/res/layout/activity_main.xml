@@ -1,0 +1,283 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff" >
+
+<Button
+    android:clickable="false"
+    android:id="@+id/head"
+    android:padding="10dp"
+    android:textSize="35sp"
+    android:background="#f8f7f5"
+    android:textColor="@color/colorPrimary"
+    android:textAllCaps="false"
+    android:text="Smart Pazhayangadi"
+    android:layout_width="match_parent"
+    android:layout_height="120dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+        <Button
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:weightSum="2">
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b1"
+                android:text="@string/b1t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/bus"
+                android:background="@drawable/button"
+                android:layout_width="100dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:clickable="false"
+                android:layout_width="10dp"
+                android:background="#fff"
+                android:layout_height="match_parent" />
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b2"
+                android:text="@string/b2t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/train"
+                android:background="@drawable/button"
+                android:layout_width="100dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:weightSum="2">
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b3"
+                android:text="@string/b3t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/auto"
+                android:background="@drawable/button"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent" />
+            <Button
+                android:clickable="false"
+                android:layout_width="10dp"
+                android:background="#fff"
+                android:layout_height="match_parent" />
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b4"
+                android:text="@string/b4t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/medical"
+                android:background="@drawable/button"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:weightSum="2">
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b5"
+                android:text="@string/b5t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/education"
+                android:background="@drawable/button"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent" />
+            <Button
+                android:clickable="false"
+                android:layout_width="10dp"
+                android:background="#fff"
+                android:layout_height="match_parent" />
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b6"
+                android:text="@string/b6t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/food"
+                android:background="@drawable/button"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:weightSum="2">
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b7"
+                android:text="@string/b7t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/shop"
+                android:background="@drawable/button"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent" />
+            <Button
+                android:clickable="false"
+                android:layout_width="10dp"
+                android:background="#fff"
+                android:layout_height="match_parent" />
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b8"
+                android:text="@string/b8t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/bank"
+                android:background="@drawable/button"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:weightSum="2">
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b9"
+                android:text="@string/b9t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/movie"
+                android:background="@drawable/button"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent" />
+            <Button
+                android:clickable="false"
+                android:layout_width="10dp"
+                android:background="#fff"
+                android:layout_height="match_parent" />
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b10"
+                android:text="@string/b10t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/emergency"
+                android:background="@drawable/button"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:weightSum="2">
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b11"
+                android:text="@string/b11t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/office"
+                android:background="@drawable/button"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent" />
+            <Button
+                android:clickable="false"
+                android:layout_width="10dp"
+                android:background="#fff"
+                android:layout_height="match_parent" />
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b12"
+                android:text="@string/b12t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/tourism"
+                android:background="@drawable/button"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:weightSum="2">
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b13"
+                android:text="@string/b13t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/notification"
+                android:background="@drawable/button"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent" />
+            <Button
+                android:clickable="false"
+                android:layout_width="10dp"
+                android:background="#fff"
+                android:layout_height="match_parent" />
+            <Button
+                android:padding="10dp"
+                android:id="@+id/b14"
+                android:text="@string/b14t"
+                android:textColor="#3c3c3c"
+                android:drawableTop="@drawable/about"
+                android:background="@drawable/button"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#E5E9EC">
+
+    <LinearLayout
+        android:id="@+id/search"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <EditText
+            android:paddingLeft="20dp"
+            android:background="#fff"
+            android:id="@+id/bus_e"
+            android:singleLine="true"
+            android:layout_weight="3"
+            android:hint="Search Bus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <Button
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:id="@+id/bus_b"
+            android:layout_weight="7"
+            android:text="Search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"><requestFocus /></Button>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_below="@+id/search"
+        android:layout_above="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:padding="10dp"
+            android:id="@+id/bus_content"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+        </LinearLayout>
+    </ScrollView>
+    <!-- view for AdMob Banner Ad -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+</RelativeLayout>

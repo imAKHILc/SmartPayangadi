@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E9EC"
+    tools:context="com.smartpazhayangadi.ImpNos">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:weightSum="100"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:textColor="#3c3c3c"
+            android:gravity="left|center"
+            android:background="#fff"
+            android:paddingLeft="20dp"
+            android:layout_weight="25"
+            android:text="Pazhayangadi Police Station"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/call_1"
+            android:layout_weight="75"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/impcall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="100"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <Button
+                android:textColor="#3c3c3c"
+                android:gravity="left|center"
+                android:background="#fff"
+                android:paddingLeft="20dp"
+                android:layout_weight="25"
+                android:text="Pazhayangadi Ambulance"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/call_2"
+                android:layout_weight="75"
+                android:background="@color/colorPrimary"
+                android:src="@drawable/impcall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="100"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <Button
+                android:textColor="#3c3c3c"
+                android:gravity="left|center"
+                android:background="#fff"
+                android:paddingLeft="20dp"
+                android:layout_weight="25"
+                android:text="Pazhayangadi Railway Station"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/call_3"
+                android:layout_weight="75"
+                android:background="@color/colorPrimary"
+                android:src="@drawable/impcall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="100"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <Button
+                android:textColor="#3c3c3c"
+                android:gravity="left|center"
+                android:background="#fff"
+                android:paddingLeft="20dp"
+                android:layout_weight="25"
+                android:text="Madayi Grama Panchayath"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/call_4"
+                android:layout_weight="75"
+                android:background="@color/colorPrimary"
+                android:src="@drawable/impcall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="100"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <Button
+                android:textColor="#3c3c3c"
+                android:gravity="left|center"
+                android:background="#fff"
+                android:paddingLeft="20dp"
+                android:layout_weight="25"
+                android:text="Pariyaram Medical College"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/call_5"
+                android:layout_weight="75"
+                android:background="@color/colorPrimary"
+                android:src="@drawable/impcall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="100"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <Button
+                android:textColor="#3c3c3c"
+                android:gravity="left|center"
+                android:background="#fff"
+                android:paddingLeft="20dp"
+                android:layout_weight="25"
+                android:text="Kannur University"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/call_6"
+                android:layout_weight="75"
+                android:background="@color/colorPrimary"
+                android:src="@drawable/impcall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="100"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <Button
+                android:textColor="#3c3c3c"
+                android:gravity="left|center"
+                android:background="#fff"
+                android:paddingLeft="20dp"
+                android:layout_weight="25"
+                android:text="Pazhayangadi Post Office"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/call_7"
+                android:layout_weight="75"
+                android:background="@color/colorPrimary"
+                android:src="@drawable/impcall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="100"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <Button
+                android:textColor="#3c3c3c"
+                android:gravity="left|center"
+                android:background="#fff"
+                android:paddingLeft="20dp"
+                android:layout_weight="25"
+                android:text="Pazhayangadi Post Office (RS)"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/call_8"
+                android:layout_weight="75"
+                android:background="@color/colorPrimary"
+                android:src="@drawable/impcall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="100"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <Button
+                android:textColor="#3c3c3c"
+                android:gravity="left|center"
+                android:background="#fff"
+                android:paddingLeft="20dp"
+                android:layout_weight="25"
+                android:text="Media News - Network Channel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/call_9"
+                android:layout_weight="75"
+                android:background="@color/colorPrimary"
+                android:src="@drawable/impcall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="100"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <Button
+                android:textColor="#3c3c3c"
+                android:gravity="left|center"
+                android:background="#fff"
+                android:paddingLeft="20dp"
+                android:layout_weight="25"
+                android:text="KSEB Pazhayangadi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/call_10"
+                android:layout_weight="75"
+                android:background="@color/colorPrimary"
+                android:src="@drawable/impcall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="100"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <Button
+                android:textColor="#3c3c3c"
+                android:gravity="left|center"
+                android:background="#fff"
+                android:paddingLeft="20dp"
+                android:layout_weight="25"
+                android:text="App Admin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/call_11"
+                android:layout_weight="75"
+                android:background="@color/colorPrimary"
+                android:src="@drawable/impcall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
